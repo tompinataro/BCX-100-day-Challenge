@@ -1,0 +1,32 @@
+/*General layout*/
+
+h2 {
+  color: #ffffff;
+  background-color: #1e3a8a;
+  font-size: 50px;
+}
+
+.Instagram-Container {
+  display: flex;
+  background-color: #1e3a8a;
+  height: 285px;
+  width: 430px;
+  text-align: center;
+}
+
+.Instagram-Button-Container {
+  align-items: flex-end;
+  align-items: end;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 50px;
+  width: 250px;
+  background-color: #da3993;
+  color: #ffffff;
+}
+
+.btn-to-go:hover {
+  background-color: #ca3e63;
+}
