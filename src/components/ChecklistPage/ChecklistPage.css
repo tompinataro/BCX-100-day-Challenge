@@ -1,0 +1,11 @@
+.checklistContainer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 80%;
+    margin: auto;
+}
+.dayDisplay {
+    font-size: 28pt;
+    font-weight: 300;
+}

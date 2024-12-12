@@ -1,0 +1,15 @@
+.blurb-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+  }
+  .step-label {
+    color: #363d8e;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .blurb-text {
+    font-style: italic;
+  }

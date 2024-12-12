@@ -1,0 +1,24 @@
+/*General layout*/
+
+h2 {
+  color: #ffffff;
+  background-color: #1e3a8a;
+  font-size: 50px;
+}
+.Instagram-Parent-Container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Instagram-Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e3a8a;
+
+  text-align: center;
+}
+
+
+.btn-to-go:hover {
+  background-color: #ca3e63;
+}

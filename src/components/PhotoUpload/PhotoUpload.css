@@ -1,0 +1,102 @@
+/* General layout */
+.mycontainer {
+  text-align: center;
+  color:#1e3a8a;
+  
+}
+
+.photo-upload-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e3a8a; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10%;
+    /* margin-left: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Button styles */
+  .submit {
+    background-color: #da3993; /* Pink button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #da3993; /* Darker pink on hover */
+  }
+  
+  /* Text styling */
+  h1{
+    margin: 10px 0;
+    margin-left: 80px;
+    text-align: center;
+    color:#1e3a8a
+    
+  }
+  h4{
+    color: #363d8e;
+    font-size: 24px;
+  }
+  h1{
+    color:#363d8e;
+    font-size: 34px;
+    margin-left: 100px;
+  }
+  h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .para{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .progress-item {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .box {
+    
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(235, 165, 226, 0.699);
+    margin-left: 30px;
+    border-radius: 5px;
+  }
+
+  .text{
+    margin-top: 40px;
+    color:rgba(125, 116, 116, 0.696);
+  }
+ .complete{
+    background-color: #ffffff;
+ }
+
+ .progress-container{
+  margin-top: 500px;
+ }
+
+ .inputPhoto{
+  width: 90%;
+ }

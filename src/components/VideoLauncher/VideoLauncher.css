@@ -1,0 +1,38 @@
+
+.video-launcher-container {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center; 
+    height: 50vh; 
+    width: 100%;
+    flex-direction: column;
+    text-align: center; 
+    padding: 0; 
+    margin: 0;
+    margin-top: 10px; 
+
+}
+
+/* Video section styling */
+.video-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: -30px; 
+}
+
+video {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+.bottom{
+    background-color: rgba(255, 192, 203, 0.698);
+    height: 150px;
+    width: 400px;
+}
+.faq-link{
+    margin-left: 120px;
+}
+footer{
+    display: none;
+}

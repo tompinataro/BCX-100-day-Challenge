@@ -1,0 +1,60 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.custom-checkbox{   
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #da3993;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-right: 10px;
+}
+
+.checklist-text :disabled{
+    font-weight: 700;
+    color: #ccc;
+}
+
+.checklist-text :not(:disabled){
+    font-weight: 700;
+    color: #da3993;
+}
+
+.custom-checkbox input:checked + .checkmark {
+    background-color: #da3993; 
+}
+
+.custom-checkbox input:checked + .checkmark + .checklist-text{
+    text-decoration: line-through;
+}
+
+.custom-checkbox input[type="checkbox"]:disabled + .checkmark{
+    border: 2px solid #ccc
+}
+
+.custom-checkbox input[type="checkbox"]:disabled + .checkmark + .checklist-text {
+
+    color:#a3a3a3;
+}
+
+.custom-checkbox input[type="checkbox"]:not(:disabled) + .checkmark + .checklist-text {
+
+    color:#da3993;
+    font-weight: 700;
+}
