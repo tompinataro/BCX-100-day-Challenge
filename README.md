@@ -77,6 +77,5 @@ Yes, you need a reliable way to track your steps to ensure you’re meeting the 
 
 What kind of results can I expect from the BCX Challenge?
 The true results of this challenge are confidence gained through follow-through. It’s not a weight loss challenge, but a discipline-building experience that helps you develop habits, resilience, and self-belief. 
-![image](https://github.com/user-attachments/assets/1505e11e-bb01-4f55-8687-4030c4a6e7d0)
 
-# Heroku Deployment Pending:
+## Heroku Deployment Pending
