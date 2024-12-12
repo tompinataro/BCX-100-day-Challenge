@@ -1,0 +1,52 @@
+/* Navigation Container */
+.nav {
+  display: flex;
+  flex-direction: column; /* Stack the title and links */
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 90px;
+  background-color: #163b8b;
+  overflow: hidden;
+  border-radius: 20px 40px 0px 0px; /* Round top-left and top-right corners */
+
+}
+
+/* Title Styling */
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center; /* Center the title */
+  background-color: #163b8b; /* Match navigation bar */
+  color: #ffffff;
+  width: 100%; /* Ensure the title spans full width */
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* Links Container */
+.nav-links {
+  display: flex; /* Align links inline */
+  justify-content: space-between; /* Distribute links evenly */
+  align-items: center; /* Vertically align links */
+  width: 100%; /* Full width */
+}
+
+/* Link and Button Styling */
+.navLink {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #163b8b;
+  text-align: center;
+  padding: 24px 10px;
+  text-decoration: none;
+  font-size: 15px;
+
+  /* Match logout button styling */
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+.navLink:hover {
+  background-color: #363d8e;
+}
