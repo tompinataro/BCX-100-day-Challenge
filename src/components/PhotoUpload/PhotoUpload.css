@@ -1,0 +1,59 @@
+/* General layout */
+.photo-upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e3a8a; /* Blue background */
+    color: white; /* White text */
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 300px;
+    
+  }
+  
+  /* Button styles */
+  .submit-button {
+    background-color: #da3993; /* Pink button */
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #da3993; /* Darker pink on hover */
+  }
+  
+  /* Text styling */
+  h1, h4 {
+    margin: 10px 0;
+    margin-left: 400px;
+  }
+  h4{
+    color: #363d8e;
+    font-size: 20px;
+  }
+  h1{
+    color:#363d8e;
+    font-size: 50px;
+  }
+  h3{
+    margin-top: 60px;
+    margin-bottom: 5px;
+  }
+  p{
+    font-size: 10px;
+    text-align: justify;
+  }
+  .step{
+    
+  }
