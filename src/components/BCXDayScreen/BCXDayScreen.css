@@ -1,0 +1,128 @@
+.bcx-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+  }
+  
+  .bcx-header {
+    margin-bottom: 20px;
+  }
+  
+  .bcx-title {
+    font-size: 56px;
+    margin: 0;
+    color: 6b5eff;
+  }
+  
+  .bcx-day {
+    font-size: 28px;
+    color: #6b5eff;
+  }
+  
+  .bcx-status {
+    font-size: 20px;
+    color: #6b5eff;
+    font-weight: bold;
+  }
+  
+  .bcx-progress-bar {
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0 20px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #6b5eff;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  
+  .bcx-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  
+  .task-row {
+    flex: 1 0 45%;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .task-row.inactive {
+    background: #e0e0e0;
+    color: #aaa;
+  }
+  
+  .task-row.active {
+    background: #ffffff;
+    color: #000;
+  }
+  
+  .task-row.completed {
+    background: #d0ffd0;
+    color: #000;
+  }
+  
+  .task-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .bcx-build {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .build-Title {
+    font-size: 44px;
+    margin-bottom: 10px;
+    color:#6b5eff
+  }
+  
+  .build-category {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .build-category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .category-icon {
+    margin-right: 10px;
+  }
+  
+  .build-progress {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .build-box {
+    width: 55px;
+    height: 55px;
+    background: #e0e0e0;
+    border-radius: 3px;
+    transition: background 0.3s ease;
+  }
+  
+  .build-box.filled {
+    background: #6b5eff;
+  }
+  
