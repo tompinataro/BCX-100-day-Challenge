@@ -1,0 +1,99 @@
+/* Login Form Container */
+.login-form-container {
+    background-color: #15317E; /* Deep blue */
+    padding: 30px 20px;
+    border-radius: 12px;
+    width: 400px; /* Adjusted width for a balanced look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .login-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .login-form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #FFC0CB; /* Soft pink for labels */
+  }
+  
+  .login-form-inputt {
+    width: calc(100% - 20px); /* Ensure inputs fit within the blue box */
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 105%; /* Button matches input width */
+
+  }
+  
+  .login-form-input:focus {
+    outline: none;
+    border-color: #FFC0CB; /* Match label color on focus */
+    box-shadow: 0 0 4px #FFC0CB;
+  }
+  
+  .loginn-form-button {
+    background-color: #E75480; /* Vibrant pink button */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%; /* Button matches input width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .loginn-form-button:hover {
+    background-color: #C74366; /* Slightly darker on hover */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-form-alert {
+    color: #ff4444;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .create-profile-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .create-profile-button {
+    background-color: white;
+    color: #15317E; /* Deep blue */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #15317E;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .create-profile-button:hover {
+    background-color: #15317E;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+
+  .name{
+    font-size: 300px;
+  }

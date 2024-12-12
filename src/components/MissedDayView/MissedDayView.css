@@ -1,0 +1,71 @@
+.missed {
+  color: #1e3a8a;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.background {
+
+  background-image: url('../../../public/images/MissedDayImage.jpg');
+  background-size: 430px 932px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 932px;
+  width: 430px;
+  margin: 0;
+  padding-top: 0px;
+
+}
+
+.Missed-Container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Blue background */
+  color: #ffffff;
+  /* White text */
+  padding: 20px 20px 40px;
+  /* Increase bottom padding */
+  text-align: center;
+  /* background-image: url('../../images/MissedDayImage.jpeg'); */
+  border-radius: 10% 10%;
+  /* margin-left: 20px; */
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-to-go {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 30px;
+  height: 50px;
+  width: 250px;
+  background-color: #da3993;
+  color: white;
+}
+
+.btn-to-go:hover {
+  background-color: #ca3e63;
+}
+
+
+#WH {
+  background-color: transparent;
+  font-size: 30px;
+  color: #1e3a8a
+  }
+
+  #PWH {
+    color: black;
+    font-style: italic;
+    font-size: 14px;
+  }
