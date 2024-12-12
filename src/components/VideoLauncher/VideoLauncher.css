@@ -1,0 +1,25 @@
+
+.video-launcher-container {
+    display: flex;
+    justify-content: flex-start;  /* Align content at the top */
+    align-items: center; /* Center the content vertically within the container */
+    height: 50vh; /* Full viewport height */
+    width: 100%;
+    flex-direction: column;
+    text-align: center; /* Center text under the video */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+
+/* Video section styling */
+.video-section {
+    width: 100%;
+    max-width: 1000px; /* Restrict video width to a max of 1000px */
+    margin-top: 20px; /* Slight gap between video and top of the container */
+}
+
+video {
+    width: 100%; /* Video takes full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners for aesthetics */
+}
