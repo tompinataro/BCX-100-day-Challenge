@@ -1,0 +1,106 @@
+.bcx-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .bcx-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bcx-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .bcx-day {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
+  .bcx-status {
+    color: #ffffff;
+    background: #653d96;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .bcx-progress-bar {
+    background: #e0e0e0;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0 20px;
+  }
+  
+  .progress {
+    background: #653d96;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .bcx-tasks {
+    margin-bottom: 20px;
+  }
+  
+  .task-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    font-size: 14px;
+  }
+  
+  .task.active {
+    color: #653d96;
+    font-weight: bold;
+  }
+  
+  .bcx-build {
+    background: #f8f5fa;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .build-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .build-category {
+    margin-bottom: 10px;
+  }
+  
+  .category-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .category-bar {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 3px;
+  }
+  
+  .bar.filled {
+    background: #653d96;
+  }
+  
