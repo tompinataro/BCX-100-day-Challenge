@@ -1,0 +1,90 @@
+/* General layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e3a8a; /* Blue background */
+  color: white; /* White text */
+  padding: 20px;
+  height: 240px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10%;
+  /* margin-left: 20px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+/* Buttons container */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center;
+  gap: 20px; /* Adds space between buttons */
+  margin-top: 20px; /* Optional: Adds space above the buttons */
+}
+
+/* Text styling */
+h1, h2, h4 {
+  /* margin: 10px 0; */
+  /* margin-left: 100px; */
+  text-align: center;
+}
+
+h4{
+  color: #363d8e;
+  font-size: 24px;
+  text-align: center;
+
+}
+h1{
+  color:#363d8e;
+  font-size: 34px;
+  /* margin-left: 10px; */
+  text-align: center;
+
+}
+h3{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+
+}
+p{
+  font-size: 14px;
+  text-align: justify;
+}
+.progress-item {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.box {
+  
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(235, 165, 226, 0.699);
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.text{
+  margin-top: 40px;
+  color:rgba(125, 116, 116, 0.696);
+  text-align: center;
+
+}
+.complete{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); }
