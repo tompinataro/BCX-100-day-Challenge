@@ -1,0 +1,15 @@
+.btn-to-go{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 30px;
+    height: 50px;
+    width: 250px;
+    background-color: #da3993;
+    color: white;
+  }
+  
+  .btn-to-go:hover {
+    background-color: #ca3e63;
+  }

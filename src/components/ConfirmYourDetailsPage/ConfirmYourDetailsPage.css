@@ -1,0 +1,59 @@
+/* --------------------------------------------------------------------------------
+Responsive Grid: One Column Default, Two Columns When Space Allows
+-------------------------------------------------------------------------------- */
+
+/* Grid Container */
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e3a8a; /* Blue background */
+  color: white; /* White text */
+  padding: 20px 20px 0px; /* Increase bottom padding */
+  height: 240px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10%;
+  /* margin-left: 20px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+/* Buttons container */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center;
+  gap: 20px; /* Adds space between buttons */
+  margin-top: 20px; /* Optional: Adds space above the buttons */
+}
+
+/* Grid Column */
+.confirm-grid-col {
+  flex: 1 0 100%; /* Default: Full width (one column) */
+  padding: 0.5rem; /* Add padding for spacing */
+  box-sizing: border-box;
+  text-align: center; /* Center-align content */
+}
+
+
+/* Two-Column Layout: Switch to two columns when the screen is wider */
+/*@media (min-width: 600px) {
+  .grid-col {
+    flex: 1 0 50%; /* Half-width for two columns */
+    /* max-width: 50%;  */
+}
+
+.registerConfirmButton{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 30px;
+    height: 50px;
+    width: 250px;
+    background-color: #da3993;
+    color: white;
+}
