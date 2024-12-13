@@ -1,5 +1,11 @@
 ![image](https://github.com/user-attachments/assets/36ac30f4-c0f7-46fa-b539-fe914ee0b2fd)
 
+SCOPE Doc => [BCX Scope.pdf](https://github.com/user-attachments/files/18119123/BCX.Scope.pdf)
+
+Entity Relationship Diagram (ERD)
+<img width="787" alt="Screenshot 2024-12-12 at 6 44 04 PM" src="https://github.com/user-attachments/assets/20e08986-6872-4196-9a70-8da8a2e49a59" />
+
+
 # Body Confidence 100-day Challenge
 The BCX Challenge is more than a 100-day journey; it’s a commitment to yourself, your growth, and your confidence. BCX is about building intentional habits that align with your values and creating a lifestyle that reflects the best version of you. Every step you take is an opportunity to embrace your unique strength, cultivate balance, and thrive with the support of a like-minded community.
 In BCX, you’ll master two powerful phases: Build and Consistency. Each step builds on the last, encouraging progress over perfection and helping you cultivate habits that last.
