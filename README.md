@@ -2,6 +2,13 @@
 
 SCOPE Doc => [BCX Scope.pdf](https://github.com/user-attachments/files/18119123/BCX.Scope.pdf)
 
+MIRO PDF FlowChart => [BCX.pdf](https://github.com/user-attachments/files/18119233/BCX.pdf)
+
+MIRO JPG FlowChart => ![BCX](https://github.com/user-attachments/assets/a09691f8-8780-4cca-8940-011e604b939e)
+
+
+
+
 Entity Relationship Diagram (ERD)
 <img width="787" alt="Screenshot 2024-12-12 at 6 44 04 PM" src="https://github.com/user-attachments/assets/20e08986-6872-4196-9a70-8da8a2e49a59" />
 
